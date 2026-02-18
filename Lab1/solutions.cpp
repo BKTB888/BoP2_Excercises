@@ -29,7 +29,7 @@ int sum_c(const int* arr, const int size) {
     for (int i = 0; i < size; i++) {
         sum += *(arr + i);
     }
-    return 0;
+    return sum;
 }
 
 void move_point_c(Point* p, int x, int y) {

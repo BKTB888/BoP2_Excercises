@@ -21,9 +21,10 @@ int main() {
 
     TEST(Lab1_c, move_point) {
         Point p = {2, 3};
-        move_point_c(&p, 5, -1);
-        EXPECT_EQ(7, p.x);
-        EXPECT_EQ(2, p.y);
+        const int x=5, y=7;
+        move_point_c(&p, x, y);
+        EXPECT_EQ(x, p.x);
+        EXPECT_EQ(y, p.y);
     } END
 
     TEST(Lab1_c, increment_valid) {
@@ -55,9 +56,10 @@ int main() {
 
     TEST(Lab1_cpp, move_point) {
         Point p = {1, 1};
-        move_point_cpp(p, 3, 4);
-        EXPECT_EQ(4, p.x);
-        EXPECT_EQ(5, p.y);
+        const int x = 3, y = 4;
+        move_point_cpp(p, x, y);
+        EXPECT_EQ(x, p.x);
+        EXPECT_EQ(y, p.y);
     } END
 
     TEST(Lab1_cpp, change) {
