@@ -22,4 +22,6 @@ void change_cpp(int& r);
 void swap_cpp(int& a, int& b);
 void move_point_cpp(Point& p, int x, int y);
 int square(const int& x);
+
+extern const int finished;
 #endif //EXCERCISES_LAB1_H

@@ -4,6 +4,11 @@
 
 #include "lab1.h"
 
+///When you are finished with a function going in order increment this number.
+///The tests will turn on for the next function,
+///and running the program will test it automatically.
+const int finished = 0;
+
 // ===== Refresher for C =====
 void change_c(int *r) {
     // TODO: change r to 20 so the test passes
