@@ -15,7 +15,7 @@ int main() {
 
     TEST(Lab1_c, sum) {
         int arr[] = {1, 2, 3, 4, 5};
-        int result = sum_c(arr, 5);
+        const int result = sum_c(arr, 5);
         EXPECT_EQ(15, result);
     } END
 

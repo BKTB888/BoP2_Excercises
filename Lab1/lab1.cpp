@@ -4,7 +4,7 @@
 
 #include "lab1.h"
 
-//Refresher for C
+// ===== Refresher for C =====
 void change_c(int *r) {
     // TODO: change r to 20 so the test passes
 }
@@ -28,7 +28,7 @@ void move_point_c(Point* p, int x, int y) {
 }
 
 
-//C++
+// ===== C++ =====
 void change_cpp(int& r) {
     // TODO: change r to 20 so the test passes
 }
