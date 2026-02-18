@@ -14,7 +14,7 @@ int main() {
     } END
 
     TEST(Lab1_c, sum) {
-        int arr[] = {1, 2, 3, 4, 5};
+        const int arr[] = {1, 2, 3, 4, 5};
         const int result = sum_c(arr, 5);
         EXPECT_EQ(15, result);
     } END
@@ -34,7 +34,7 @@ int main() {
 
     TEST(Lab1_c, increment_null) {
         // Should not crash with NULL
-        increment(nullptr);
+        increment(NULL);
         SUCCEED(); // just passes if no crash occurs
     } END
 
@@ -62,7 +62,7 @@ int main() {
 
     TEST(Lab1_cpp, change) {
         int x = 10;
-        change(x);
+        change_cpp(x);
         EXPECT_EQ(20, x);
     } END
 

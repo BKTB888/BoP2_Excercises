@@ -13,12 +13,12 @@ struct Point {
 //C
 void change_c(int* r);
 void swap_c(int* a, int* b);
-int sum_c(int* arr, int size);
+int sum_c(const int* arr, int size);
 void move_point_c(Point* p, int x, int y);
 void increment(int* value);
 
 //C++
-void change(int& r);
+void change_cpp(int& r);
 void swap_cpp(int& a, int& b);
 void move_point_cpp(Point& p, int x, int y);
 int square(const int& x);

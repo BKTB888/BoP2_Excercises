@@ -18,7 +18,7 @@ void swap_c(int* a, int* b) {
     // if you have not been able to do it in class
 }
 
-int sum_c(int* arr, int size) {
+int sum_c(const int* arr, int size) {
     // TODO: compute the sum, if you are cool use only pointer arithmetic
     return 0;
 }
